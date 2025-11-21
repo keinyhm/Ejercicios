@@ -4,6 +4,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.io.*;
+//EJERCICIO 4 CORRESPONDE A LA CLASE DE ALUMNODAO
 
 public class Ejercicio4 {
     //declaramos en variables finales y privadas la conexión a la base de datos
@@ -18,6 +19,7 @@ public class Ejercicio4 {
             ps.setString(1, nombre);
             ps.setInt(2, edad);
             ps.executeUpdate();
+            System.out.println("Alumno insertado exitosamente");
         } catch (SQLException e) {
             System.out.println("ERROR: El alumno que se ha intentado insertar ya existe en la base de datos. " + e.getMessage());
         }
