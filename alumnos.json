@@ -1,0 +1,13 @@
+[ {
+  "curso" : "1º DAM",
+  "nombre" : "Martina",
+  "edad" : 20
+}, {
+  "curso" : "2º DAM",
+  "nombre" : "Luis",
+  "edad" : 21
+}, {
+  "curso" : "1º ASIR",
+  "nombre" : "Julia",
+  "edad" : 19
+} ]
